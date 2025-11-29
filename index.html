@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./CSS/Estilos.css">
+</head>
+<body>
+    <h1>Registro de Usuario</h1>
+    <form id="formRegistro">
+        <label>Nombre completo</label>
+        <input type="text" id="nombre">
+        <label>Correo electrónico</label>
+        <input type="email" id="usuario">
+        <label>Celular</label>
+        <input type="text" id="celular">
+        <label>Contraseña</label>
+        <div class="input-grupo">
+            <input type="password" id="pass">
+            <span class="ojito" onclick="togglePass('pass')">👁️</span>
+        </div>
+        <button type="button" onclick="registrar()">Crear Cuenta</button>
+    </form>
+<p id="mensaje"></p>
+<br><br>
+<p>¿Ya tienes cuenta? <a href="./HTML/Login.html">Inicia sesión</a></p>
+<p>¿Olvidaste tu contraseña? <a href="./HTML/Recuperar.html">Recuperar</a></p>
+
+<script src="./JS/Funciones.js"></script>
+</body>
+</html>

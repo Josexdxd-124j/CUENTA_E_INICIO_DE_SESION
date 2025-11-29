@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Recuperar contraseña</title>
+    <link rel="stylesheet" href="../CSS/Estilos.css">
+</head>
+<body>
+<h1>Recuperar contraseña</h1>
+    <label>Nueva contraseña</label>
+    <div class="input-grupo">
+        <input type="password" id="nuevaPass">
+        <span class="ojito" onclick="togglePass('nuevaPass')">👁️</span>
+    </div>
+    <button onclick="recuperarClave()">Actualizar Contraseña</button>
+<p id="mensajeRecuperar"></p>
+<p>¿Ya tienes cuenta? <a href="Login.html">Inicia sesión</a></p>
+<p>¿Ya tienes Usuario? <a href="../index.html">Registro de Usuario</a></p>
+<script src="../JS/Funciones.js"></script>
+</body>
+</html>
